@@ -1,10 +1,7 @@
 ﻿using AutoMapper.QueryableExtensions;
 using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MobackApp.Models;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MobackApp.Services
 {

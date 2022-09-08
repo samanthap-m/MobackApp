@@ -18,6 +18,7 @@ builder.Services.AddDbContext<MobackDBContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("connectionString")));
 
 builder.Services.AddScoped<IEmployeeService,EmployeeService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
 var app = builder.Build();
 
